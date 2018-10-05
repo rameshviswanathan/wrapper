@@ -77,6 +77,7 @@ class OS_Test
 
             // Normal Case
             INT numCharWritten = System::OS::SNPrintF(dstBuf, BUF_SZ, "%s %s %d", "Test Name", "SNPrintF", 1);
+	    (void) numCharWritten;
             VerifyResults(expected, dstBuf, __FUNCTION__);
         }
 

@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_C_INCLUDES += $(LOCAL_PATH)/../../../include
+LOCAL_C_INCLUDES += $(LOCAL_PATH)/../../../inc
 
 FINGERPRINT=$(shell bash $(LOCAL_PATH)/../scripts/build-fingerprint.sh $(LOCAL_C_INCLUDES))
 
